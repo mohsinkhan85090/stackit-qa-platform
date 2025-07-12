@@ -48,19 +48,7 @@ Build a minimal platform like Stack Overflow where users can:
 
 ## 📂 Project Structure
 
-**stackit-qa-platform/
-├── backend/
-│ ├── app/
-│ │ ├── models/
-│ │ ├── routers/
-│ │ └── main.py
-│ └── requirements.txt
-├── frontend/
-│ ├── src/
-│ └── index.html, main.jsx
-└── README.md**
-
-
+<pre lang="md"> ## 📂 Project Structure ``` stackit-qa-platform/ ├── backend/ │ ├── app/ │ │ ├── models/ │ │ ├── routers/ │ │ └── main.py │ └── requirements.txt ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ └── pages/ │ ├── index.html │ └── main.jsx └── README.md ``` </pre>
 ---
 
 ## ✅ Features
