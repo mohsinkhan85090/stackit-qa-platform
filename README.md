@@ -48,7 +48,7 @@ Build a minimal platform like Stack Overflow where users can:
 
 ## 📂 Project Structure
 
-stackit-qa-platform/
+**stackit-qa-platform/
 ├── backend/
 │ ├── app/
 │ │ ├── models/
@@ -58,7 +58,7 @@ stackit-qa-platform/
 ├── frontend/
 │ ├── src/
 │ └── index.html, main.jsx
-└── README.md
+└── README.md**
 
 
 ---
