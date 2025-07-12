@@ -48,3 +48,66 @@ Build a minimal platform like Stack Overflow where users can:
 
 ## 📂 Project Structure
 
+stackit-qa-platform/
+├── backend/
+│ ├── app/
+│ │ ├── models/
+│ │ ├── routers/
+│ │ └── main.py
+│ └── requirements.txt
+├── frontend/
+│ ├── src/
+│ └── index.html, main.jsx
+└── README.md
+
+
+---
+
+## ✅ Features
+
+### 🧑‍💻 Users
+- Register and Login using JWT Auth
+- Post new questions and answers
+- Receive notifications
+
+### ❓ Ask Questions
+- Title, description (rich text), and multi-tag support
+- Rich text editor with formatting, emoji, images, links
+
+### 📝 Answer Questions
+- Post formatted answers using the same rich editor
+- Mark answers as accepted
+
+### 👍 Voting System
+- Upvote/downvote on answers
+- Votes affect answer ranking
+
+### 🔔 Notification System
+- Get notified when:
+  - Someone answers your question
+  - Someone comments on your answer
+  - You are mentioned (@username)
+
+### 🛡️ Admin Features
+- Reject spam/inappropriate content
+- Ban users who violate platform rules
+- Broadcast updates or alerts
+
+---
+
+## ⚙️ How to Run Locally
+
+### 🔧 Backend (FastAPI + SQLite)
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙏 Acknowledgements
+
+- **Odoo Hackathon 2025 Team**  
+- **FastAPI**, **React**, **Tailwind CSS**  
+- All open-source contributors
